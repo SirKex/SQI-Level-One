@@ -1,0 +1,81 @@
+#navDiv{
+    display: none;
+    height: 50px;
+    background-color: white;
+}
+
+#resDiv{
+    display: flex !important;
+}
+
+#resOne{
+    width: 80%;
+    padding-left: 20px;
+}
+
+#resTwo{
+    width: 20%;
+}
+
+#BigdivOne{
+    flex-direction: column;
+    justify-content: center;
+}
+
+#UnoBDOne{
+    width: 100%;
+}
+
+#UnoDivOne{
+    padding-left: 40px;
+    text-align: center;
+}
+
+#UnoPOne{
+    font-size: 36px;
+}
+
+#UnoPTwo{
+    width: 87%;
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+#imgOne{
+    width: 90%;
+    height: 188px;
+    padding-left: 60px;
+    margin-bottom: 0;
+}
+
+#UnoBDTwo, #divSOne{
+    width: 71%;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+#divSOne{
+    height: fit-content;
+    padding-top: 60px;    
+}
+
+#UnoBDThree{
+    flex-direction: column;
+}
+
+#UnodivSOne{
+    padding-left: 0;
+}
+
+#UnodivSTwo{
+    text-align: center;
+}
+
+#UnodivSOne, #UnodivSTwo, #UnodivSThree{
+    width: 66% !important;
+    justify-content: center;
+}
+
+#imgTwo{
+    margin-top: 20px;
+}

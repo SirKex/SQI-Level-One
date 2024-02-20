@@ -1,0 +1,36 @@
+#divOne, #divTwo, #divThree {
+    display: none;
+}
+
+#divFour {
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sectionOne {
+    flex-direction: column;
+    height: fit-content;
+}
+
+#divFive, #divSix {
+    width: 100%;
+    height: 300px;
+}
+
+#sectionTwoChildOne, #sectionTwoChildTwo{
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+#sectionTwoChildOne > div, #sectionTwoChildTwo > div{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#testImage{
+    width: 50%;
+}

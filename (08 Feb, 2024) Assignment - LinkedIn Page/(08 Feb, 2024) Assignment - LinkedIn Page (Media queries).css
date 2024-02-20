@@ -1,0 +1,273 @@
+#navDivOne, #navDivTwo, #navIcon, #navDivThree{
+ display: none !important;   
+}
+
+#resDiv{
+    display: flex !important;
+    width: 100%;
+}
+
+#resNavOne{
+    width: 60%;
+    padding-left: 16px;
+    font-size: 24px;
+    color: rgb(10, 102, 194);
+}
+
+#resNavTwo{
+    width: 40%;
+}
+
+#navButtonOne{
+    background-color: transparent;
+    border: none !important;
+    padding: 10px 20px;
+}
+
+#navButtonTwo{
+    color: rgb(124, 173, 222);
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#secUno, #secDos, #secTres, #secQ, #secCua, #secSix, #secStar, #secEnd, #BDEnd{
+    flex-direction: column;
+}
+
+#UnoBDOne{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 24px;
+}
+
+#UnoDivOne{
+    width: 100%;
+}
+
+#UnoPOne{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38.4px;
+    color: rgb(178, 64, 32);
+}
+
+#UnoPThree{
+    width: 100%;
+}
+
+#UnoDivTwo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#UnoPFour{
+    width: 65%;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#spanPFour{
+    color: rgb(0, 65, 130);
+}
+
+#UnoButtonTwo{
+    padding: 10px 150px;
+}
+
+#UnoBDTwo{
+    width: 100% !important;
+}
+
+#UnoimgOne{
+   width: 40%;
+   margin-top: 12px;
+}
+
+#secDos{
+    padding-top: 60px;
+}
+
+#DosBDOne{
+    width: 100%;
+    padding-left: 16px;
+}
+
+#DosPOne, #TresPOne, #CuaPOne{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#DosPTwo{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#DosBDTwo{
+    width: 100%;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+#secTres{
+    padding-top: 90px;
+}
+
+#TresBDOne{
+    width: 100%;
+    padding-left: 16px;
+}
+
+#TresBDTwo{
+    width: 90%;
+    padding-left: 16px;
+}
+
+#secQ{
+    height: 300px;
+    justify-content: center;
+}
+
+#QDivOne{
+    width: 100%;
+    padding-left: 16px;
+}
+
+#QP{
+    width: 70%;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(178, 64, 32);
+}
+
+#QDivTwo{
+    width: 100%;
+    padding-left: 16px;
+}
+
+#CuaBDOne{
+    width: 100%;
+    padding-left: 16px;
+}
+
+#CuaPTwo{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+#CuaBDTwo{
+    width: 100%;
+    padding-left: 16px;
+}
+
+#secCinc{
+    flex-direction: column-reverse;
+    height: 550px;
+    width: 100%;
+}
+
+#CincBDOne{
+    width: 100%;
+    padding-left: 16px;
+}
+
+#CincPOne{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#CincPTwo{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#CincBDTwo{
+    width: 60%;
+    margin-bottom: 10px;
+    padding-left: 16px;
+}
+
+#SixBDOne{
+    padding-left: 16px;
+    width: 100%;
+}
+
+#SiximgOne, #SiximgTwo{
+    width: 35%;
+}
+
+#SixPOne, #SixPTwo{
+    width: 70%;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#SixBDTwo{
+    padding-left: 16px;
+    width: 100%;
+}
+
+#SixSelect{
+    width: 70%;
+}
+
+#secStar{
+    margin-top: 60px;
+}
+
+#StarBDOne{
+    width: 100%;
+    padding-left: 16px;
+    padding-top: 48px;
+}
+
+#StarBDTwo{
+    display: none;
+}
+
+#secEight{
+    display: none !important;
+}
+
+#EightRes{
+    display: block;
+    padding-left: 16px;
+    margin-bottom: 70px;
+}
+
+#EightPTwo{
+    font-size: 32px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#BDEnd{
+    padding-left: 16px;
+}
+
+#footDiv{
+   display: none !important;
+}
+
+#resFoot{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 16px;
+}
+
+#resFootOne{
+    width: 50%;
+}
+
+#resFootTwo{
+    width: 50%;
+}

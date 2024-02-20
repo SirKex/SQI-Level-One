@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navOne{
+    height: 80px;
+}
+
+#navDivOne{
+    width: 43%;
+    height: 100%;
+    padding-left: 178px;
+}
+
+#navPOne{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(10, 102, 194);
+}
+
+#navDivTwo{
+    width: 22%;
+    height: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#smallnavDiv{
+    width: 100%;
+    flex-direction: column;
+    height: inherit;
+}
+
+#smallnavDiv2{
+    width: 100%;
+    padding-top: 6px;
+    flex-direction: column;
+    height: inherit;
+}
+
+#iconNav{
+    margin-bottom: 10px;
+}
+
+#navIcon{
+    width: 7%;
+    height: 70%;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.9);
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+#navDivThree{
+    width: 18%;
+    height: 100%;
+}
+
+#navDivThree > button{
+    border-radius: 20px;
+}
+
+#resDiv{
+    display: none !important;
+}
+
+#secUno{
+  padding-top: 40px;
+}
+
+#UnoBDOne{
+    width: 55%;
+    padding-left: 178px;
+}
+
+#UnoPOne{
+    width: 100%;
+    font-size: 56px;
+    font-weight: lighter;
+    line-height: 67.2px;
+    color: rgb(178, 64, 32);
+}
+
+#UnoDivOne{
+    width: 70%;
+}
+
+#UnoSpanOne{
+    margin-top: 36px;
+    margin-bottom: 8px;
+}
+
+#UnoSpanTwo{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.UnoInput{
+    height: 55px;
+    border-radius: 5px;
+}
+
+#UnoPTwo{
+    margin-top: 20px;
+    margin-bottom: 32px;
+    color: royalblue;
+}
+
+#UnoButtonOne{
+    margin-bottom: 24px;
+    color: white;
+    background-color: royalblue;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+#UnoPThree{
+    margin-bottom: 24px;
+}
+
+#spanPFour{
+    color: rgb(0, 65, 130);
+}
+
+#UnoButtonTwo{
+    margin-top: 24px;
+}
+
+#UnoButtonTwo, #UnoButtonThree{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#UnoButtonTwo:hover{
+    background-color: #add8e6;
+}
+
+#UnoButtonThree:hover{
+    background-color: lightgray;
+}
+
+#UnoBDTwo{
+    width: 45% !important;
+}
+
+#UnoimgOne{
+    width: 100%;
+}
+
+#secDos{
+    padding-top: 84px;
+}
+
+#DosBDOne, #TresBDOne, #QDivOne, #CuaBDOne{
+    padding-left: 178px;
+    width: 47%;
+}
+
+#DosPOne{
+    font-size: 48px;
+    font-weight: normal;
+    width: 40%;
+}
+
+#DosPTwo{
+    font-size: 20px;
+    font-weight: 200;
+    width: 85%;
+}
+
+#DosBDTwo{
+    width: 45%;
+    padding-top: 50px;
+}
+
+.DosButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-bottom: 12px;
+    background-color: white;
+}
+
+#secTres{
+    padding-top: 120px;
+}
+
+#TresPOne{
+    font-size: 48px;
+    font-weight: 200;
+}
+
+#TresBDTwo, #QDivTwo, #CuaBDTwo{
+    width: 40%;
+}
+
+#secQ{
+    margin-top: 83px;
+    height: 290px;
+    background-color: rgb(241, 236, 229);
+}
+
+#QP{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(178, 64, 32);
+}
+
+#QButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+    color: rgb(35, 117, 197);
+    background-color: transparent;
+}
+
+#secCua{
+    padding-top: 60px;
+}
+
+#CuaPOne{
+    font-size: 48px;
+    font-weight: 200;
+}
+
+#CuaPTwo{
+    font-size: 20px;
+    font-weight: 200;
+    width: 80%;
+}
+
+#secCinc{
+    background-color: rgb(243, 242, 240);
+    height: 840px;
+    margin-top: 72px;
+}
+
+#CincBDOne{
+    width: 52%;
+    padding-left: 178px;
+}
+
+#CincPOne{
+    width: 80%;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(178, 64, 32);
+}
+
+#CincPTwo{
+    font-size: 32px;
+    font-weight: 200;
+}
+
+#CincBDTwo{
+    width: 40%;
+}
+
+#CincImg{
+    width: 90%;
+}
+
+#secCincTwo{
+    display: none !important;
+}
+
+#secSix{
+    padding-top: 180px;
+}
+
+#SixBDOne{
+    width: 50%;
+    padding-left: 178px;
+}
+
+#SiximgOne{
+    width: 60%;
+}
+
+#SixPOne, #SixPTwo{
+    font-size: 48px;
+    font-weight: 200;
+    width: 80%;
+    margin-top: 16px;
+}
+
+#SixBDTwo{
+    width: 50%;
+}
+
+#SixPTwo{
+    width: 70%;
+}
+
+#SiximgTwo{
+    width: 46%;
+}
+
+#SixSelect{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 5px;
+}
+
+#secStar{
+    margin-top: 180px;
+}
+
+#StarBDOne{
+    width: 50%;
+    flex-direction: column;
+    padding-left: 178px;
+    padding-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgb(243, 242, 240);
+}
+
+#StarPOne{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(178, 64, 32);
+}
+
+#StarPTwo{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.StarButton{
+    width: 75%;
+    margin-bottom: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    border: none;
+    background-color: rgb(234, 230, 223);
+}
+
+#StarB{
+    margin-bottom: 80px;
+}
+
+#StarBDTwo{
+    width: 50%;
+}
+
+#Starimg{
+    padding-left: 96px;
+    width: 120%;
+    z-index: 5;
+}
+
+#EightDiv{
+    width: 100%;
+    padding-left: 178px;
+}
+
+#EightP{
+    font-size: 56px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#EightButton{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(10, 102, 194);
+}
+
+#EightRes{
+    display: none;
+}
+
+#secEnd{
+    margin-top: 40px;
+    background-color: rgb(243, 242, 240);
+}
+
+#BDEnd{
+    width: 80%;
+    padding-left: 178px;
+}
+
+#EndDivOne, #EndDivTwo, #EndDivThree, #EndDivFour, #EndDivFive{
+    padding-top: 24px;
+}
+
+#EndPOne{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(10, 102, 194);
+}
+
+.EndPTwo{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.EndPThree{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#footDiv{
+    padding-top: 10px;
+    width: 80%;
+    padding-left: 178px;
+}
+
+#footPOne{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footPTwo{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footPTwo:hover{
+    cursor: pointer;
+    color: rgb(0, 65, 130);
+}
+
+#resFoot{
+    display: none;
+}
