@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS</title>
+</head>
+<style>
+
+    /* div{
+        width: 150px;
+        height: 150px;
+        background-color: purple;
+        border-radius: 5px;
+    } */
+
+    #divOne{
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+        border-radius: 5px;
+    }
+
+    .divOne{
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+        border-radius: 5px;   
+    }
+
+    #divTwo{
+        width: 150px;
+        height: 150px;
+        background-color: khaki;
+        border-radius: 5px;    
+    }
+
+    .divTwo{
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        border-radius: 5px;
+    }
+
+    a:hover{
+        color: whitesmoke;
+        background-color: bisque;
+    }
+
+    a:visited{
+        color: red
+    }
+
+    /* div:first-child {
+        background-color: green;
+    }
+
+    section > #divThree{
+        background-color: black;
+    } */
+
+    section>div:nth-child(3n - 1){
+        background-color: yellow;
+    }
+/* 
+    section>div:nth-child(odd){
+        background-color: aquamarine;
+    } */
+
+</style>
+<body>
+    <div id="divOne"></div>
+    <div class="divOne"></div>
+    <div id="divTwo"></div>
+    <div class="divTwo"></div>
+    <div></div>
+    <a href="">Read more...</a>
+
+    <section>
+        <div>Blue</div>
+        <div>Red</div>
+        <div>Green</div>
+        <div>Purple</div>
+        <div>White</div>
+    </section>
+</body>
+</html>
