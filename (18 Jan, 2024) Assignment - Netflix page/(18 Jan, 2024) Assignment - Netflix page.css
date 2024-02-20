@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg);
+}
+#h1{
+    color: red;
+    text-transform: uppercase;
+    margin-left: 150px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sign{
+    background-color: red;
+    color: white;
+    width: 5%;
+    height: 36px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 140px;
+}
+p{
+    color: white;
+}
+#p1{
+    margin-top: 190px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p2{
+    font-size: 26px;
+}
+#p3{
+    font-size: 22px;
+}
+#email{
+    width: 25%;
+    margin-bottom: 0px; 
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(54,69,79,0.5);
+}
+#submit{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 24px;
+    width: 12%;
+    margin-bottom: 20px;
+    height: 55px;
+}

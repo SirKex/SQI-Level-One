@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* span{
+    display: block;
+} */
+
+#navOne{
+    display: flex;
+    height: 60px;
+}
+
+#divOne, #divTwo, #divThree, #divSix{
+    height: inherit;
+    width: 100vw;
+}
+
+#divOne{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkslateblue;
+    font-size: 20px;
+}
+
+#iconOne{
+    color: steelblue;
+}
+
+#iOne{
+    color: darkblue;
+}
+
+#iTwo{
+    color: dodgerblue;
+}
+
+#divTwo{
+    width: 40%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-style: inherit;
+    font-family: sans-serif;
+}
+
+select{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#divThree{
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#divThree > button{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid steelblue;
+    border-radius: 20px;
+}
+#buttonOne{
+    color: steelblue;
+    background-color: white;
+}
+#buttonTwo{
+    color: white;
+    background-color: steelblue;
+}
+
+#sectionBack{
+    background-image: url(https://www.paypalobjects.com/webstatic/en_GB/mktg/wright/home/homepage-hero-1x.jpg);
+    background-size: cover;
+}
+#pOne{
+    padding-top: 160px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#buttonThree{
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    color: white;
+    background-color: steelblue;
+    margin-top: 60px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: steelblue;
+}
+
+#pTwo{
+    margin-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#pThree{
+    font-size: 40px;
+    margin-top: 100px;
+    color: rgb(59,60,54)
+}
+
+#imgOne{
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+#pFour{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#pFive{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+#buttonFour, #buttonFive{
+    margin-top: 25px;
+    color: steelblue;
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid steelblue;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttonFive{
+    margin-bottom: 90px;
+}
+
+#pSix{
+    padding-top: 100px;
+    margin-top: 80px;
+    font-size: 34px;
+}
+
+#sectionCream{
+    background-color: rgb(247, 249, 250);
+}
+
+#pStar{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+#divImg{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#gr1{
+    margin-top: 20px;
+}
+
+#divCircle{
+    height: 30px;
+    width: 30px;
+    border: 1px solid steelblue;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#div1, #div2, #div3{
+    height: 30px;
+    width: 30px;
+    border: 1px solid steelblue;
+    border-radius: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sectionBlue{
+    background-color: rgb(0, 48, 135);
+    color: azure;
+}
+
+#pEight{
+    padding-top: 100px;
+    margin-top: 0px;
+    font-size: 44px;
+}
+
+#divBlue > ul{
+    list-style: none;
+    width: 40%;
+    height: inherit;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: justify;
+    text-align: left;
+}
+
+#divP{
+    display: flex;
+    align-items: center;
+}
+
+#ulOne{
+    width: 50%;
+    /* display: flex; */
+    font-size: 14px;
+    margin-top: 80px;
+    text-align: left;
+    justify-content: center;
+}
+
+#ulTwo{
+    width:50%;
+    font-size: 14px;
+    /* display: flex; */
+    font-size: 24px;
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+#ulNum{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#ulNum > li{
+    border: 1px solid black;
+    list-style: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+#divFour{
+    background-color: rgb(247, 249, 250);
+}
+
+#pNine{
+    padding-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    font-kerning: auto;
+    line-height: 35px;
+    color: rgb(44, 46, 47);
+}
+
+#buttonSix{
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    color: white;
+    background-color: steelblue;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: steelblue;
+}
+
+footer{
+    margin-top: 60px;
+}
+
+.footerNav{
+    width: 70%;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.footerNav > ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    list-style: none;
+    font-size: 14px;
+}
+
+#navulOne{
+    /* border-bottom: 1px solid black; */
+    font-weight: bold;
+}
+
+#navulTwo{
+    border-bottom: none;
+}
+
+#Naija{
+    margin-left: 640px;
+}
+
+#shift{
+    margin-left: 290px;
+}
+
+#pEnd{
+    width: 70%;
+    font-size: 11.375px;
+    text-align: left;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+
