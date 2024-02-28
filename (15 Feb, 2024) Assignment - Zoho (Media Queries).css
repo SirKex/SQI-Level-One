@@ -92,3 +92,6 @@
     flex-direction: column;
 }
 
+#TwoPOne, #TwoPTwo{
+    margin-bottom: 0;
+}
