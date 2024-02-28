@@ -1,0 +1,163 @@
+#navDivOne, #navDivTwo, #navDivThree{
+    display: none;
+}
+
+#resOne{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#resDOne{
+    width: 60%;
+    padding-left: 30px;
+}
+
+#resDTwo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#resDTwo > button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+#secOne{
+    width: 100%;
+}
+
+#sodOne{
+    padding-left: 30px;
+}
+
+#pOne{
+    width: 100%;
+    font-size: 85px;
+}
+
+#pTwo{
+    width: 65%;
+}
+
+#secTwo{
+    height: fit-content;
+    padding-left: 0px;
+    width: 80%;
+    border: none;
+}
+
+#BDOne{
+    flex-direction: column;
+    width: 120%;
+    border-bottom: 1px solid lightgray;
+}
+
+.divTrend{
+    width: 90%;
+    padding-left: 30px;
+    display: flex;
+    align-items: start;
+}
+
+.spanTrend{
+    width: 2%;
+    height: 100%;
+    margin-right: 0;
+}
+
+#pTrend{
+    padding-left: 30px;
+}
+
+.stDiv{
+    width: 90%;
+    padding-left: 30px;
+    height: 100%;
+    margin-bottom: 24px;
+}
+
+.pThree{
+    margin-bottom: 8px;
+}
+
+.pFour{
+    margin-bottom: 8px;
+}
+
+#secThree{
+    width: 80%;
+    flex-direction: column-reverse;
+    padding-left: 0px;
+    position: static;
+    padding-top: 30px;
+}
+
+#BSTwo{
+    padding-left: 30px;
+    margin-left: 0;
+    width: 120%;
+    border-bottom: 1px solid lightgray;
+}
+
+#BDTwo{
+    height: fit-content;
+}
+
+#bOne{
+    width: 20%;
+    margin-bottom: 8px;
+  }
+  
+  #bTwo{
+      width: 20%;
+  }
+  
+  #bThree{
+      width: 17%;
+  }
+  
+  #bFour{
+      width: 25%;
+  }
+  
+  #bFive{
+      width: 12%;
+  }
+  
+  #bSix{
+      width: 17%;
+  }
+  
+  #bStar{
+      width: 22%;
+  }
+  
+  #bEight{
+      width: 17%;
+  }
+  
+  #bNine{
+      width: 12%;
+  }
+
+  #pStar{
+    height: fit-content;
+    padding-bottom: 30px;
+    border: none;
+  }
+
+#divFoot{
+    display: none;
+}
+
+#BSOne{
+    width: 120%;
+    padding-top: 30px;
+    padding-left: 30px;
+}

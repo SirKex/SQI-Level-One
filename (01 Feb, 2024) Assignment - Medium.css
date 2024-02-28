@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navOne{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 5;
+}
+
+#navDivOne{
+   display: flex;
+   align-items: center;
+    width: 50%;
+    height: 100%;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 140px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#navDivTwo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#navDivTwo > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(25, 25, 25);
+    width: 100%;
+    height: 100%;
+}
+
+#navDivTwo > ul > li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#navDivThree{
+    width: 20%;
+}
+
+#buttonNav{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+#resOne{
+    display: none;
+}
+
+#secOne{
+    width: 100%;
+    padding-top: 75px;
+    display: flex;
+    height: 455px;
+    border-bottom: 1px solid black;
+    background-color: rgb(255, 192, 23);
+}
+
+#sodOne{
+    width: 100%;
+    padding-left: 140px;
+    padding-top: 93px;
+}
+
+#pOne{
+    font-size: 106px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 95px;
+}
+
+#pTwo{
+    width: 35%;
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(36, 36, 36);
+}
+
+#sodButton{
+    padding: 7px 45px;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    background-color: black;
+}
+
+#secTwo{
+    height: 303px;
+    padding-left: 140px;
+    padding-top: 45px;
+    border-bottom: 1px solid lightgray;
+}
+
+#pTrend{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(36, 36, 36);
+    margin-bottom: 21px;
+}
+
+#BDOne{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.divTrend{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+}
+
+.spanTrend{
+    width: 10%;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: rgb(242, 242, 242);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.stDiv{
+    width: 90%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+.divFlex{
+    display: flex;
+    align-items: center;
+}
+
+.imgTrend{
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+}
+
+.pThree{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: rgb(36, 36, 36);
+    margin-bottom: 8px;
+}
+
+.pFour{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(36, 36, 36);
+    margin-bottom: 8px;
+}
+
+.pFive{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(107, 107, 107);
+}
+
+#secThree{
+    padding-top: 57px;
+    padding-left: 140px;
+    width: 1192px;
+    display: flex;
+    height: fit-content;
+}
+
+#BSOne{
+    width: 65%;
+}
+
+.BSDiv{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.mpOne{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgb(36, 36, 36);
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.author{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.mpTwo{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(36, 36, 36);
+}
+
+.mpThree{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(107, 107, 107);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.mpFour{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(107, 107, 107);
+}
+
+.imgMass{
+    height: 135px;
+    margin-left: 19px;
+}
+
+#BSTwo{
+    margin-left: 99px;
+    width: 35%;
+    height: 100px;
+    position: sticky;
+    top: 110px;
+}
+
+#pSix{
+    height: 36px;
+}
+
+#BDTwo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 143px;
+}
+
+#BDTwo > button{
+    height: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(36, 36, 36);
+    background-color: rgb(242, 242, 242);
+    border-radius: 25px;
+    border: none;
+    margin-right: 8px;
+}
+
+#bOne{
+  width: 30%;
+}
+
+#bTwo{
+    width: 27%;
+}
+
+#bThree{
+    width: 25%;
+}
+
+#bFour{
+    width: 33%;
+}
+
+#bFive{
+    width: 18%;
+}
+
+#bSix{
+    width: 28%;
+}
+
+#bStar{
+    width: 35%;
+}
+
+#bEight{
+    width: 25%;
+}
+
+#bNine{
+    width: 20%;
+}
+
+#pStar{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 16px;
+    color: rgb(178, 217, 182);
+    height: 53px;
+    border-bottom: 1px solid lightgray; 
+}
+
+#pStar:hover{
+    color: rgb(25, 25, 25);
+}
+
+#divFoot{
+    width: 90%;
+    height: 104px;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.span{
+    margin-right: 20px;
+}

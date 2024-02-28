@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navDiv{
+    height: 70px;
+    position: fixed;
+    background-color: white;
+    z-index: 6;
+}
+
+#navbarText{
+    font-size: 17.5px;
+    font-weight: 700;
+}
+
+#navButton:hover{
+    background-color: white;
+    color: steelblue;
+}
+
+#resDiv{
+    display: none !important;
+}
+
+#secUno{
+    background-color: rgb(248, 249, 251);
+}
+
+#UnoBDOne{
+    width: 65%;
+    padding-top: 86px;
+}
+
+#UnoDivOne{
+    padding-left: 141px;
+}
+
+#UnoPOne{
+    font-size: 54px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+    margin-bottom: 0px;
+}
+
+#UnoPTwo{
+    width: 71%;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+
+#UnoUnder:hover{
+    color: steelblue;
+}
+
+#UnoButtonOne{
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(246, 0, 20);
+}
+
+#imgOne{
+    width: 100%;
+    height: 308px;
+    margin-bottom: 118px;
+}
+
+#UnoBDTwo{
+    width: 26%;
+    height: 100%;
+    margin-top: 86px;
+    margin-left: -28px;
+    padding-top: 30px;
+    border-radius: 7px;
+    background-color: white;
+    z-index: 5;
+}
+
+#UnodivIcon{
+    width: 20%;
+    margin-top: 10px;
+    color: steelblue;
+}
+
+#UnodivCon{
+    width: 64%;
+}
+
+#UnodivChev{
+    width: 16%;
+    display: flex;
+    align-items: center;
+}
+
+#UnoPThree{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: rgb(1, 1, 1);
+}
+
+#UnoPFour{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin-bottom: 26px;
+}
+
+#UnodivThree{
+    padding-left: 40px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    color: rgb(5, 108, 184);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#divSOne{
+    width: 71%;
+    height: 220px;
+    margin-left: 220px;
+    margin-bottom: -110px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 5;
+    position: relative;
+}
+
+#SPOne{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#SPTwo{
+    font-size: 22px;
+}
+
+#imgTwo{
+    padding-top: 20px;
+    width: 300px;
+    height: 178px;
+}
+
+#secTwo{
+    background-color: gold;
+    padding-top: 200px;
+}
+
+#TwoBDOne{
+    padding-left: 120px;
+}
+
+#TwoPOne{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+}
+
+#TwoPTwo{
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+}
+
+#TwoPThree{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+}
+
+#imgThree{
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+}
