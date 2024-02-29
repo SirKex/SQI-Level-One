@@ -17,6 +17,10 @@
     width: 20%;
 }
 
+#secUno{
+    height: fit-content;
+}
+
 #BigdivOne{
     flex-direction: column;
     justify-content: center;
@@ -55,8 +59,9 @@
 }
 
 #divSOne{
-    height: fit-content;
-    padding-top: 60px;    
+    height: 461px;
+    padding-top: 60px;
+    margin-bottom: 20px;
 }
 
 #UnoBDThree{
@@ -83,6 +88,8 @@
 #secTwo{
     flex-direction: column;
     padding-left: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #TwoBDOne{
@@ -92,6 +99,51 @@
     flex-direction: column;
 }
 
+#TwoIcon{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
 #TwoPOne, #TwoPTwo{
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
+}
+
+#TwoPOne{
+    font-size: 13px;
+}
+
+#TwoPTwo{
+    font-size: 38px;
+}
+
+#TwoPThree{
+    font-size: 14px;
+}
+
+#TwoPFour{
+    font-size: 19px;
+    width: 80%;
+    margin-left: 70px;
+}
+
+#TwoBDTwo{
+    width: 100% !important;
+    text-align: center;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#TwoPFive{
+    width: 70%;
+}
+
+#Twodiv{
+    flex-direction: column;
+}
+
+#ThreeBD{
+    padding: 0 !important;
 }

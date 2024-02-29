@@ -26,7 +26,7 @@
 }
 
 #secUno{
-    background-color: rgb(248, 249, 251);
+    background-color: rgb(248, 249, 251) !important;
 }
 
 #UnoBDOne{
@@ -140,7 +140,7 @@
 }
 
 #imgTwo{
-    padding-top: 20px;
+    margin-top: 40px;
     width: 300px;
     height: 178px;
 }
@@ -148,6 +148,7 @@
 #secTwo{
     background-color: gold;
     padding-top: 200px;
+    padding-bottom: 120px;
 }
 
 #TwoBDOne{
@@ -166,14 +167,91 @@
     color: rgb(1, 1, 1);
 }
 
-#TwoPThree{
+#TwoPThree, #TwoPFour{
     font-size: 18px;
     font-weight: 400;
     color: rgb(1, 1, 1);
+}
+
+#TwoBDTwo{
+    padding-left: 150px;
 }
 
 #imgThree{
     width: 42px;
     height: 42px;
     border-radius: 100%;
+}
+
+#TwoPFive{
+    width: 60%;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+
+#imgFour{
+    width: 90px;
+    height: 106px;
+}
+
+#TwoSpanOne{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#TwoSpanTwo{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#secThree{
+    background-color: rgb(248, 249, 251) !important;
+    padding-top: 90px;
+    height: 423px;
+}
+
+#ThreeBD{
+    margin-top: 50px;
+    padding-left: 111px;
+    padding-right: 111px;
+}
+
+#ThreeImgOne{
+    width: 110px;
+    height: 50px;
+}
+
+#ThreeImgTwo{
+    width: 69px;
+    height: 44px;
+}
+
+#ThreeImgThree{
+    width: 107px;
+    height: 55px;
+}
+
+#ThreeImgFour{
+    width: 93px;
+    height: 46px;
+}
+
+#ThreeImgFive{
+    width: 33px;
+    height: 46px;
+}
+
+
+#divFace{
+    width: 95px;
+    height: 45px;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(1, 1, 1);
 }
