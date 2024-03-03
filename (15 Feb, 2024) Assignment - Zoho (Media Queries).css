@@ -145,5 +145,34 @@
 }
 
 #ThreeBD{
-    padding: 0 !important;
+    padding: 0;
+}
+
+#secFour{
+    flex-direction: column-reverse;
+    padding-top: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#FourBDTwo, #FourBDOne{
+    width: 100%;
+    padding-left: 0 !important;
+    padding-top: 0;
+}
+
+#FourPFour{
+    width: 100%;
+    font-size: 40px;
+}
+
+#FourPFive{
+    width: 86%;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+#FourPOne{
+    font-size: 20px;
 }
